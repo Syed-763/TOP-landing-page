@@ -1,4 +1,4 @@
-body{
+    body{
     padding: 0%;
     margin: 0%;
 }
@@ -41,8 +41,8 @@ ul{
     
 }
 
-.img{
-    margin-left: 400px;
+/*.img{
+   
     width: 400px;
     height: 200px;
     background-color: rgb(138, 138, 138);
@@ -50,15 +50,19 @@ ul{
     align-items: center;
     justify-content: center;
     color: #e5e7eb;
-}
+} */
 
 .bolder{
     font-size: 48px;
     color: #f9faf8;
+    margin: 0%;
+    padding: 0%;
 }
 
 .subtext{
     color: #e5e7eb  ;
+    padding: 0%;
+    margin: 0%;
 }
 
 button {
@@ -75,45 +79,85 @@ button {
 }
 
 /* mid contetn */
-.mid-cont{
+.mid-cont{}
+
+  .mid-cont1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    
-}
+    justify-content: space-evenly;
+    height: 700px;
+   
+} 
+ 
 
-.info{
+.upper-mid{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
+}
+
+
+.info{
     font-size: 36px;
     color: #1f2937;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgtxt{
-     display: flex;  
-     text-align: center;
-     justify-content: space-between;
-     width:30%;
-     margin-left: 35%;
-     background-color:royalblue;
-     outline-style: dotted;
-}
-
-.quote{
     display: flex;
-    font-size: 36px;
-    font-style:light italic;
-    color: #1f2937;
-    width: 800px;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 10px;
 }
 
-.aurthor{
-    di
+
+ .items{
+   /* display: flex;
+    justify-content: center; 
+    gap: 15px; */
+    flex-wrap: wrap;
+    padding: 0%;
+    margin: 0%;     
+    text-align: center;
+    width: 130px;
+    flex-wrap: wrap;
 }
+
 
 .middle-mid{
-   ;
+    width: 600px;
+    font-size: 36px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.insta{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0%;
+    margin: 0%;
+}
+
+.lower-mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: royalblue;
+    border-radius: 8px;
+    color: white;
+   
+}
+
+.lower-mid1{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
 }
