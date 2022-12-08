@@ -5,12 +5,14 @@
 
 
 .header{
-    background-color: #1f2937;  
+    background-color: #1f2937; 
+    
 }
 
 .header1{
     width: 80%;
     margin: auto;
+    
 }
 
 
@@ -19,7 +21,9 @@
     justify-content:space-between;
     color:#f9faf8;
     font-size: 24px;
+    
 }
+
 
 
 ul{
@@ -33,12 +37,17 @@ ul{
 
 .awesome1{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .awesome{
     width: 310px;
-    
+    margin:0%;
+    margin-top: 60px;
+    margin-bottom:60px; ;
+    padding: 0%;
+   
+
 }
 
 /*.img{
@@ -72,7 +81,7 @@ button {
   
 
 .up-sign{
-  background: royalblue;
+  background:#3882f6;
   border: 1px solid royalblue;
   color: white;
     
@@ -86,7 +95,7 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 700px;
+    height: 600px;
    
 } 
  
@@ -113,7 +122,7 @@ button {
     display: flex;
     justify-content: flex-start;
     align-content: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 
@@ -132,7 +141,7 @@ button {
 
 .middle-mid{
     width: 600px;
-    font-size: 36px;
+    font-size: 26px;
     padding: 0%;
     margin: 0%;
 }
@@ -148,9 +157,10 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: royalblue;
+    background-color: #3882f6;
     border-radius: 8px;
     color: white;
+    margin-top: 50px;
    
 }
 
@@ -159,5 +169,32 @@ button {
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
-    padding: 20px;
+    padding:20px 100px;
+}
+
+.low-sign{
+    margin-right: 40px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: #3882f6;
+    
+}
+
+/* footer */
+
+.footer1{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 100px;
+    color: #f9faf8;
 }
